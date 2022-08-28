@@ -23,11 +23,19 @@
 }
 
 #menu ul li a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: white;
     font-size: 26px;
     line-height: 32px;
     font-family: var(--fontMontserrat);
+}
+
+#menu ul li .route-active {
+    color: yellow;
+}
+
+#menu ul li .route-inactive {
+    text-decoration: none;
 }
 
 #icons-menu img {
